@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heading{
+    /* background-color: #ffffff; */
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+ background-color: blueviolet;
+ min-height: 500px;
+ width: auto;
+ margin: 10px 30px 0px 30px;
+ display: flex;
+ flex-direction: column;
+
+ align-items: center;
+ border-radius: 20px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.control{
+    
+    /* background-color: black; */
+   
+    height: 100px;
+   padding:  40px  50px  60px  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.control input{
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.control input[type=text]{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: rgba(98, 0, 117, 0.394);
+    border: 3px solid  #82006263;
+    color: indigo;
+    font-size: 20px;
+} 
+.control input[type=button]{
+    background-color: indigo;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.control input[type=button]:hover{
+    background-color: rgb(255, 243, 15);
+    color: #690169;
+    font-size: 24px;
+    height: 53px;
+    width: 103px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.list{
+    background-color: blueviolet;
+    /* margin-top: 5px; */
+   
+    height: auto;
+    width: auto;
+    text-align: center;
+   
+   
+    margin:10px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item{
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 5px; */
+    padding: 10px  10px  10px  10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #e393d1f1;
+    margin: 0px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+   
+}
+.list-item:hover{
+    /* background-color: rgb(0, 0, 0); */
+    /* margin-top: 5px; */
+    padding: 10px  10px  10px  10px;
+    height: auto;
+    width: auto ;
+    text-align: center;
+ 
+    margin: 0px 20px 10px 20px;
+    /* color: white; */
+}
+
+#buttonDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#buttonDiv #deleteButton{
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+#buttonDiv #deleteButton:hover{
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(255, 60, 60);
+    border-radius: 5px;
+    border: 3px solid rgb(255, 86, 86);
+}
+
+
+#buttonDiv #editButton{
+    padding: 12px;
+    background-color: #008616;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+
+#buttonDiv #editButton:hover{
+    padding: 12px;
+    background-color: #ffffff;
+    color: rgb(35, 168, 46);
+    border: 3px solid rgb(129, 254, 67);
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
